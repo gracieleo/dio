@@ -1,0 +1,22 @@
+INSERT INTO tbl_cards (hp, name, typeID, stageID, info, attack, damage, weak, ressis, retreat, cardNumberInCollection, collectionID)
+VALUES
+(60, 'Squirtle', 1, 1, 'A tiny turtle Pokémon with a tough shell.', 'Water Gun', '20', 'Electric', 'Fire', 1, 7, 1),
+(80, 'Wartortle', 1, 2, 'Evolves from Squirtle. Known for its fluffy tail.', 'Bubble Beam', '30', 'Electric', 'Fire', 1, 8, 1),
+(150, 'Blastoise', 1, 3, 'Evolves from Wartortle. Has powerful water cannons.', 'Hydro Pump', '90', 'Electric', 'Fire', 3, 9, 1),
+(70, 'Charmander', 2, 1, 'A fire Pokémon with a flame on its tail.', 'Ember', '30', 'Water', 'Grass', 1, 4, 1),
+(90, 'Charmeleon', 2, 2, 'Evolves from Charmander. Its tail burns brighter.', 'Flamethrower', '60', 'Water', 'Grass', 1, 5, 1),
+(120, 'Charizard', 2, 3, 'Evolves from Charmeleon. Can breathe intense flames.', 'Fire Spin', '110', 'Water', 'Grass', 3, 6, 1),
+(50, 'Pikachu', 4, 1, 'An electric mouse Pokémon with red cheeks.', 'Thunder Shock', '20', 'Fighting', 'Steel', 1, 25, 1),
+(90, 'Raichu', 4, 3, 'Evolves from Pikachu. Known for storing electricity.', 'Thunderbolt', '80', 'Fighting', 'Steel', 2, 26, 1),
+(80, 'Oddish', 3, 1, 'It often hides in the ground during the day.', 'Absorb', '20', 'Fire', 'Water', 1, 43, 2),
+(60, 'Zubat', 5, 1, 'It emits ultrasonic waves to fly in the dark.', 'Leech Life', '10', 'Electric', 'Psychic', 1, 41, 3),
+(100, 'Golbat', 5, 2, 'Evolves from Zubat. Uses its large fangs to bite.', 'Wing Attack', '40', 'Electric', 'Psychic', 1, 42, 3),
+(70, 'Eevee', 5, 1, 'Known for its adaptable evolution abilities.', 'Quick Attack', '30', 'Fighting', 'Psychic', 1, 133, 2),
+(110, 'Vaporeon', 1, 3, 'Evolves from Eevee when exposed to a Water Stone.', 'Aqua Ring', '60', 'Electric', 'Fire', 2, 134, 2),
+(90, 'Jolteon', 4, 3, 'Evolves from Eevee when exposed to a Thunder Stone.', 'Thunder Wave', '70', 'Fighting', 'Steel', 2, 135, 2),
+(70, 'Machop', 5, 1, 'Loves to work out and build strength.', 'Karate Chop', '50', 'Psychic', 'None', 1, 66, 1),
+(80, 'Machoke', 5, 2, 'Evolves from Machop. Has a muscular body.', 'Submission', '60', 'Psychic', 'None', 2, 67, 1),
+(100, 'Machamp', 5, 3, 'Evolves from Machoke. Has four arms for combat.', 'Dynamic Punch', '100', 'Psychic', 'None', 3, 68, 1),
+(90, 'Butterfree', 3, 2, 'Evolves from Metapod. Known for its colorful wings.', 'Gust', '40', 'Fire', 'Grass', 1, 12, 1),
+(80, 'Gastly', 5, 1, 'Made of gas, it can slip through any obstacle.', 'Lick', '30', 'Psychic', 'None', 0, 92, 3),
+(100, 'Haunter', 5, 2, 'Evolves from Gastly. Known for its mischievous nature.', 'Shadow Ball', '50', 'Psychic', 'None', 0, 93, 3);

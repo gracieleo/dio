@@ -1,0 +1,51 @@
+[ação]
+create a script to create a table in mysql
+
+[contexto]
+- the first table is a table to save a pokemon tcg cards
+- the second table is a table to save collections set
+
+connect the tables with foreign keys
+
+[informações]
+first table: tbl_cards
+- id
+- hp
+- name
+- type
+- stage
+- info
+- attack
+- dammage
+- weak
+- ressis.
+- retreat
+- cardNumberInCollection
+
+second table: tbl_collections
+- id
+- collectionSetName
+- release Date
+- totalCardsInCollection
+
+[prompsts usados para ajustar o script de criação]
+- otimize the varchar fields to the perfect size
+- remove comments in the script
+- create another table and link to tbl_cards
+    create a table to separate the field type
+    create a table to separate the field stage
+- give me all the scripts together with the last modifications
+
+[para criação de seeds]
+- create a initial seed to all tables above, generate inserts scripts
+- generate 20 inserts records to table tbl_cards
+- more 30 records
+
+[criação de views]
+consider the relational mode bellow
+    add o script de create tables
+give me all the informations from table tbl_cards replacing with names of the foreign keys
+save this in a view to mysql
+
+
+- faça uma consulta na vw_cards_with_names pegando campo a campo, não usar o select *
